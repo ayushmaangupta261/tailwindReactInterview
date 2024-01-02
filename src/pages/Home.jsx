@@ -86,7 +86,7 @@ const Home = () => {
       </div>
 
       {/* sidebar */}
-      <div className=' w-[90%] mx-auto lg:w-[20%]  flex flex-col justify-center mr-[5%]  py-10'>
+      <div className=' w-[90%] mx-auto lg:w-[20%]  flex flex-col justify-center lg:mr-[3%]  py-10'>
 
         {/* 1st  */}
         <div className='flex flex-col justify-center items-center bg-blue-100 py-3 rounded-xl'>

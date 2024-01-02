@@ -1,15 +1,15 @@
 import React from 'react'
-import ayushmaan from "../assets//ayushmaan.jpg"
+import home from "../assets/home.webp"
 import banner from "../assets/banner.jpg"
 
 const Home = () => {
   return (
-    <div className='overflow-x-hidden bg-blue-100  w-[100vw]  flex  flex-col justify-center items-center mx-auto '>
+    <div className='overflow-x-hidden bg-blue-100  w-[100vw]   flex  flex-col justify-center items-center mx-auto pb-[15rem]'>
 
       {/* Navbar */}
       <div className=' w-full bg-gradient-to-r from-blue-300 to-purple-300'>
         <div className='w-11/12 mx-auto py-5 flex justify-between items-center'>
-          <p className='text-lg font-semibold text-white'>Ayushmaan Gupta</p>
+          <p className='text-lg font-semibold text-white'>Craxinno CRM</p>
           {/* button */}
           <div>
             <div className='flex gap-x-5 justify-center w-full'>
@@ -26,13 +26,13 @@ const Home = () => {
       </div>
 
       {/* hero */}
-      <div className=' w-[100%] flex flex-col md:flex-row  items-center justify-between  md:ml-[27%] mt-[5rem] pb-[5rem] '>
+      <div className=' w-[100%] flex flex-col md:flex-row  items-center justify-between  md:ml-[19%] mt-[10rem] pb-[5rem] '>
 
         {/* left */}
         <div className='w-[50%]'>
-          <p className='text-4xl'>Hi! Ayushmaan Gupta</p>
+          <p className=' text-2xl md:text-4xl'>Craxinno CRM</p>
 
-          <p className='mt-2'>I’m a web developer and here is my portfolio website. Here you’ll learn about my journey as a web developer.</p>
+          <p className='mt-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo accusamus eos maiores incidunt quo labore! Exercitationem, reprehenderit enim iusto hic eveniet, debitis inventore, et fuga maxime iste quasi totam provident harum fugiat cupiditate fugit quod ratione quibusdam nam! Quod odio eligendi est inventore quaerat incidunt! Corporis enim officia fuga nulla.</p>
 
           <div className='w-full mt-5'>
             <button className='rounded-xl bg-[#4cd6f8] px-5 py-2 w-fit shadow-lg justify-center items-center'>Contact Me </button>
@@ -41,7 +41,7 @@ const Home = () => {
 
         {/* right */}
         <div className='w-fit mt-5 md:mt-0  mx-auto'>
-          <img src={ayushmaan} alt="" className='w-[60%] h-[30%] md:w-[50%] rounded-lg ml-[20%]  ' />
+          <img src={home} alt="" className='w-[60%] h-[30%] md:w-[50%] rounded-lg ml-[20%]  ' />
         </div>
       </div>
 

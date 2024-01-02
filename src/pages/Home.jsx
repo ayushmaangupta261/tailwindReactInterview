@@ -14,10 +14,10 @@ const Home = () => {
           <div>
             <div className='flex gap-x-5 justify-center w-full'>
               <div className='w-full'>
-                <button className='rounded-xl bg-[#FFFF00] px-5 py-2 w-full'>Login </button>
+                <button className='rounded-xl bg-[#FFFF00] px-5 py-2 w-[100px]'>Login </button>
               </div>
               <div className='w-full'>
-                <button className='rounded-xl bg-[#FFFF00] px-5 py-2 w-full'>Signup</button>
+                <button className='rounded-xl bg-[#FFFF00] px-5 py-2 w-[100px]'>Signup</button>
               </div>
 
             </div>

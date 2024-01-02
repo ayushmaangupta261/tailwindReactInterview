@@ -15,7 +15,9 @@ const Signup = () => {
         <div className='flex flex-col gap-y-5'>
           <p className='text-sm text-slate-600 font-semibold '>START FOR FREE</p>
           <p className='text-4xl'>Create new account</p>
-          <p className='text-sm text-slate-600'>Aready a member ? <span className='text-[#0000ff] cursor-pointer' >Log in</span></p>
+         
+         <div className='flex justify-center items-center gap-x-2 text-sm'> <p className='text-sm text-slate-600'>Aready a member ?</p>
+          <span className='text-[#0000ff] cursor-pointer hover:scale-105 transition-all duration-200' >Log in</span></div>
 
           <form action=""
             className='flex flex-col gap-y-5 justify-center '
@@ -25,23 +27,23 @@ const Signup = () => {
               <input type="text"
                 id='firstName'
                 placeholder='First Name'
-                className='border bg-slate-200 px-2 py-2 rounded-lg text-center w-full'
+                className='border bg-slate-200 px-2 py-2 rounded-lg text-center w-full hover:scale-105 transition-all duration-200'
               />
               <input type="text"
                 id='lastName'
                 placeholder='Last Name'
-                className='border bg-slate-200 px-2 py-2 rounded-lg text-center w-full'
+                className='border bg-slate-200 px-2 py-2 rounded-lg text-center w-full hover:scale-105 transition-all duration-200'
               />
             </div>
 
             <input type="email"
               id='email'
               placeholder='Enter your email'
-              className='border bg-slate-200 px-2 py-2 rounded-lg text-center'
+              className='border bg-slate-200 px-2 py-2 rounded-lg text-center hover:scale-105 transition-all duration-200'
             />
 
             <input type="text" id="password" placeholder='Please enter your password'
-              className='border bg-slate-200 px-2 py-2 rounded-lg text-center'
+              className='border bg-slate-200 px-2 py-2 rounded-lg text-center hover:scale-105 transition-all duration-200'
             />
 
           </form>
@@ -49,10 +51,10 @@ const Signup = () => {
           {/* button */}
           <div className='flex gap-x-10 justify-center w-full'>
             <div className='w-full'>
-              <button className='rounded-xl bg-slate-200 px-3 py-2 w-full'>Change Method</button>
+              <button className='rounded-xl bg-slate-200 px-3 py-2 w-full hover:scale-95 transition-all duration-200'>Change Method</button>
             </div>
             <div className='w-full'>
-              <button className='rounded-xl bg-[#5e5eec] px-3 py-2 w-full'>Ceate Account</button>
+              <button className='rounded-xl bg-[#5e5eec] px-3 py-2 w-full hover:scale-95 transition-all duration-200'>Ceate Account</button>
             </div>
 
           </div>
@@ -62,8 +64,8 @@ const Signup = () => {
 
       </div>
       {/* right */}
-      <div className='flex justify-center'>
-        <img src={login} alt="" className='rounded-lg' />
+      <div className='flex justify-center '>
+        <img src={login} alt="" className='rounded-lg shadow-lg hover:scale-90 transition-all duration-200' />
       </div>
     </div>
   )
